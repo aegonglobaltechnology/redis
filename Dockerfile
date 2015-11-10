@@ -4,6 +4,9 @@ FROM redis
 # Copy the config file.
 COPY redis.conf /usr/local/etc/redis/redis.conf
 
+VOLUME ["/data"]
+WORKDIR /data
+
 # Make the Port availavle. 
 EXPOSE 6379
 
