@@ -1,2 +1,2 @@
 Redis running in a container. 
-Its pretty stock. 
+Its pretty much stock. 
